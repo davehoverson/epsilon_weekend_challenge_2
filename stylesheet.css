@@ -1,0 +1,60 @@
+body {
+	background: url("http://goo.gl/STwNg0");
+}
+
+.headline {
+	font-family: 'Rock Salt', cursive;
+	font-weight: bolder;
+	font-size: 40px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+button {
+background-color: black;
+color: white;
+letter-spacing: 1px;
+font-family: verdana;
+font-size: 20px;
+padding:15px, 15px;
+margin: 15px 21px;
+width: 95px;
+}
+
+.movieBox{
+	font: 20px verdana;
+	font-weight: bold;
+	list-style: none;
+	color: #009999;
+}
+h1{
+	font-family: georgia;
+	font-style: italic;
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.displayYear {
+	text-align: center;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+	font: 30px verdana;
+	font-weight: bold;
+	display:inline-block;
+	vertical-align: text-top;
+	color: black;
+}
+.small{
+	text-align: center;
+}
+.displayPlot, .displayActors {
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}

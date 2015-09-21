@@ -28,10 +28,10 @@ function search(query){
         var moviePoster = ("<img src="+data.Poster +">"+"<img>");
         var moviePlot = ("<p class=displayPlot>" + data.Plot +"</p>");
         var movieActors = ("<p class=displayActors>" + "Starring: " + data.Actors +"</p>");
-        var $movieOutput = $("<ul>" +movieTitle+ "<br>" + 
-            movieYear + "<br>" + 
-            moviePoster+ "<br>" + 
-            moviePlot+ "<br>" +
+        var $movieOutput = $("<ul>" +movieTitle + 
+            moviePoster +
+            movieYear+
+            moviePlot+
             movieActors+ "</ul>");
         $(".dataDump").html($movieOutput);
     });
